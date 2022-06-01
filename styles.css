@@ -200,24 +200,23 @@ a:hover {
 }
 
 .carousel-indicators {
-  justify-content: flex-start;
-  /* margin: 1200px 200px 400px 0; */
-  /* margin-left: -1000px;
-  margin-bottom: 90px; */
-}
+  /* justify-content: flex-start; */
 
-.carousel-indicators li {
-  background-color: transparent;
-  line-height: 10px;
-  color: #000;
-  font-size: 14px;
-  font-weight: bold;
-  text-indent: initial;
-  text-align: center;
-  border-radius: 100%;
-  width: 30px;
-  height: 30px;
-}
+   /* margin: 1200px 200px 400px 0; */
+   margin-left: -1000px;
+   margin-bottom: 90px;
+ }
+ .carousel-indicators li{
+   color:  #95CD41;
+   font-size: 14px;
+   font-weight: bold;
+   text-indent: initial;
+   text-align: center;
+   border-radius: 100%;
+   width: 30px;
+   height: 30px;
+ }
+
 
 /* feature section */
 #features {
