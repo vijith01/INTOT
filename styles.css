@@ -1,0 +1,286 @@
+body {
+  font-family: "Montserrat"
+}
+
+.solutions {
+  color: black;
+}
+
+#title {
+  background-color: #95CD41;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  padding-bottom: 100px;
+}
+
+.container-fluid {
+  padding: 1% 2%;
+}
+
+h1 {
+  font-family: 'Montserrat-bolder';
+  line-height: 1;
+  color: white;
+  font-style: 3rem;
+  padding-top: 10%;
+  padding-bottom: 7%;
+}
+
+.solutions {
+  color: black;
+}
+
+h6 {
+  line-height: 1.5;
+  color: white;
+  font-style: 3rem;
+  margin-right: 6rem;
+}
+
+h3 {
+  margin: 10% 15% 5% 20%;
+  font-size: 125%;
+}
+
+p {
+  color: ;
+}
+
+/* nav bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: white;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* .change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+} */
+.ba1, .ba2, .ba3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.ba1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.ba2 {
+  opacity: 0;
+}
+
+.ba3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* dwnld btn */
+.download-button {
+  border-radius: 25px;
+  padding: 1% 4%;
+}
+
+/* title image */
+.title-image {
+  width: 105%;
+  margin-right: 10rem;
+  position: relative;
+  vertical-align: middle;
+}
+
+.navbtn1 {
+  margin-right: 205%;
+  border-radius: 50%
+}
+
+.navbtn2 {
+  margin-left: 205%;
+  border-radius: 50%
+}
+
+.carousel-indicators {
+  justify-content: flex-start;
+  /* margin: 1200px 200px 400px 0; */
+  /* margin-left: -1000px;
+  margin-bottom: 90px; */
+}
+
+.carousel-indicators li {
+  background-color: transparent;
+  line-height: 10px;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-indent: initial;
+  text-align: center;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.card-img {
+  width: 35%;
+  margin: 20% 35% 5% 35%;
+}
+
+.card0 {
+  padding-bottom: 3%;
+}
+
+.card1 {
+  padding-bottom: 1.35%;
+}
+
+.card2 {
+  padding-bottom: 5%;
+}
+
+.cardbtn {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/* portfolio */
+#portfolio {
+  background-color: #fff;
+  text-align: center;
+}
+
+.ptfo1 {
+  padding-top: 03%;
+  padding-left: 3%;
+  padding-bottom: 02%;
+}
+
+.ptfo2 {
+  padding-right: 06%
+}
+
+.ptfo-img1 {
+  margin-right: 5rem;
+  margin-bottom: 1rem;
+}
+
+.ptfo-img2 {
+  margin-left: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+.ptfo-img4 {
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}

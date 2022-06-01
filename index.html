@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INTOT</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <section class="title-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+
+        <a class="navbar-brand" href="">
+          <h3>INTOT</h3>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href=""><i><img src="images/login.png"></i> Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><i><img src="images/signup.png"></i> Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><span><img src="images/search-icon.png"></span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-link" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+
+
+      </nav>
+
+
+
+
+      <!-- Title -->
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> <span class="li">01</span></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""> <span class="li">02</span> </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3 offset-md-2">
+                <h1>INNOVATIVE<br>
+                  <span class="solutions">SOLUTIONS</span>
+                </h1>
+                <p class="title-para">We find the best solutions fot you, we <br> redesign your home and work places. <br> Discover why over 5,100 home owners <br>trust
+                  initiative</p>
+                <button type="button" class="btn btn-outline-light btn-lg download-button">Read more</button>
+              </div>
+              <div class="col-md-7">
+                <img class="title-image" src="images/slider-img.png" alt="First slide">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3 offset-md-2">
+                <h1>INNOVATIVE<br>
+                  <span class="solutions">SOLUTIONS</span>
+                </h1>
+                <p class="title-para">We find the best solutions fot you, we <br> redesign your home and work places. <br> Discover why over 5,100 home owners <br>trust
+                  initiative</p>
+                <button type="button" class="btn btn-outline-light btn-lg download-button">Read more</button>
+              </div>
+              <div class="col-md-7">
+                <img class="title-image" src="images/slider-img.png" alt="First slide">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <div class="nav-link" onclick="myFunction(this)">
+        <div class="ba1"></div>
+        <div class="ba2"></div>
+        <div class="ba3"></div>
+      </div>
+    </a>
+    <div class="overlay-content">
+      <a href="#title">HOME</a>
+      <a href="portfolio-section">TEAM</a>
+      <a href="#">PORTFOLIO</a>
+
+    </div>
+  </div>
+
+
+
+  <!-- Features -->
+
+  <section class="features-section" id="features">
+    <div class="container">
+
+      <h2 class="section-heading">WHY INITIATIVE COMPANY</h2>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="feature-column col-lg-4 col-md-6">
+          <div class="card card0">
+            <img class="card-img" src="images/card-img-1.png" alt="">
+            <div class="card-body">
+              <h3>10 YEARS EXPERIENCE</h3>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-success btn-lg download-button cardbtn">Read more</button>
+        </div>
+
+        <div class="feature-column col-lg-4 col-md-6">
+          <div class="card card1">
+            <img class="card-img" src="images/card-img-2.png" alt="">
+            <div class="card-body">
+              <h3>A PRO ARCHITECTS TEAM</h3>
+
+
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-success btn-lg download-button cardbtn">Read more</button>
+        </div>
+
+        <div class="feature-column col-lg-4">
+          <div class="card card2">
+            <img class="card-img" src="images/card-img-3.png" alt="">
+            <div class="card-body">
+
+              <h3>1000+ HAPPY CUSTOMERS</h3>
+
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.</p>
+
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-success btn-lg download-button cardbtn">Read more</button>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- portfolio -->
+
+
+
+  <section class="portfolio-section" id="portfolio">
+    <div class="container ptfo1">
+      <h2 class="section-heading">OUR PORTFOLIO</h2>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+    </div>
+    <div class="container ptfo2">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="ptfo-img ptfo-img1">
+            <img src="images/portfolio-img-1.png">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ptfo-img ptfo-img2">
+            <img src="images/portfolio-img-2.jpg">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ptfo-img ptfo-img3">
+            <img src="images/portfolio-img-3.png">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="ptfo-img ptfo-img4">
+            <img src="images/portfolio-img-4.png">
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function myFunction(x) {
+      document.getElementById("myNav").style.width = "100%";
+      x.classList.toggle("change");
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+
+</body>
+
+</html>
